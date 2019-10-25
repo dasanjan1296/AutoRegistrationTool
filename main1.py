@@ -504,6 +504,7 @@ def run(inputimgloc, refimgloc, showMatches, rescalefac, band):
 	#sift = cv2.xfeatures2d.SURF_create()
 	#sift = cv2.ORB_create()
 	#sift = cv2.BRISK_create()
+	#sift = cv2.ORB_create()
 	sift = cv2.AKAZE_create()
 
 	# find the keypoints and descriptors with SIFT
