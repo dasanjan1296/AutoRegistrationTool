@@ -18,6 +18,7 @@ reflist = []
 
 
 class MainWindow(QMainWindow):
+	
 	def __init__(self, parent=None):
 		super(MainWindow, self).__init__(parent)
 		self.main_app = mainapp(self) 
@@ -38,7 +39,7 @@ class MainWindow(QMainWindow):
 		self.statusBar()
 
 		mainMenu = self.menuBar()
-		
+		#Assign mainMenu
 		fileMenu = mainMenu.addMenu('&File')
 		fileMenu.addAction(file_quit_Action)
 
