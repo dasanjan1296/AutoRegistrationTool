@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 #from matplotlib import pyplot as plt
-#import matplotlib 
 import gdal
 import osr
 from gdalconst import *
@@ -185,3 +184,4 @@ def correlate(img, template):
 	#bottom_right = (top_left[0] + w, top_left[1] + h)
 	#cv2.rectangle(img,top_left, bottom_right, 255, 2)
 	#drawcv(img)
+	#cv2.destroyAllWindows()
